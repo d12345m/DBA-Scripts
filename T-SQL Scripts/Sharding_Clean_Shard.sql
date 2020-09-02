@@ -1,0 +1,19 @@
+
+DROP TABLE __ShardManagement.ShardMapManagerLocal;
+DROP TABLE __ShardManagement.ShardMappingsLocal;
+DROP TABLE __ShardManagement.ShardsLocal;
+DROP TABLE __ShardManagement.ShardMapsLocal;
+
+DROP PROCEDURE __ShardManagement.spAddShardLocal
+DROP PROCEDURE __ShardManagement.spBulkOperationShardMappingsLocal
+DROP PROCEDURE __ShardManagement.spFindShardMappingByKeyLocal
+DROP PROCEDURE __ShardManagement.spGetAllShardMappingsLocal
+DROP PROCEDURE __ShardManagement.spGetAllShardsLocal
+DROP PROCEDURE __ShardManagement.spGetStoreVersionLocalHelper
+DROP PROCEDURE __ShardManagement.spKillSessionsForShardMappingLocal
+DROP PROCEDURE __ShardManagement.spRemoveShardLocal
+DROP PROCEDURE __ShardManagement.spUpdateShardLocal
+DROP PROCEDURE __ShardManagement.spValidateShardLocal
+DROP PROCEDURE __ShardManagement.spValidateShardMappingLocal
+
+DROP FUNCTION __ShardManagement.fnGetStoreVersionMajorLocal
